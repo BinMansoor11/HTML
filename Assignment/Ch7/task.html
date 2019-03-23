@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Task</title>
+</head>
+<body>
+    <form action=""http://www.example.com/profile.php">
+    <table width="500">
+        <tr>
+            <td>User Name:</td>
+            <td><input type="text" name="username" size="20"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td>Date of Birth:</td>
+            <td><input type="date" name="Date of Birth" size="25"></td>
+        </tr>
+        <tr>
+            <td>Web Url:</td>
+            <td><input type="url" name="website"></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" name="adress"></td>
+        </tr>
+        <tr>
+            <td>City:</td>
+            <td><select name="city"">
+                <option value="karachi">Karachi
+                </option>
+                <option value="lahore">Lahore</option>
+                <option value="islamabad">Islamabad</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>State:</td>
+            <td><input type="text" name="state"></td>
+        </tr>
+        <tr>
+            <td>Zip:</td>
+            <td><input type="text" name="zip"></td>
+        </tr>
+        <tr>
+            <td>Megazine:</td>
+            <td><select name="megazine" size="4" multiple="multiple">
+                <option value="newsweek">Newsweek</option>
+                <option value="time">Time</option>
+                <option value="fortune">Fortune</option>
+                <option value="tv guide">TV Guide</option>
+            </select></td>
+        </tr>
+    </table>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <lebel>Email: <br><input type="email" name="email"></lebel><br>
+        <lebel>Mobile: <br> <input type="text" name="mobile"></lebel><br>
+        <lebel>Telephone: <br><input type="text" name="telephone"></lebel>
+    </fieldset>
+    <p>Additional Comments:</p>
+    <textarea name="comments" cols="30" rows="10"></textarea>
+     <table width="450">
+         <tr>
+             <td>Upload your profile picture:</td>
+             <td><input type="file" name="picture"></td>
+         </tr>
+         <tr>
+             <td></td>
+             <td><input type="submit" value="Upload"></td>
+         </tr>
+     </table>
+     <input type="submit" value="Send Your Order">
+     <br>
+     <br>
+     <br>
+     <table>
+         <tr>
+             <td>Email Address: <input type="email" name="email"></td>
+         </tr>
+         <tr>
+             <td>Subscription: <input type="radio" value="1 year" checked="checked">1 year
+            <input type="radio" value="2 years">2 years</td>
+         </tr>
+         <tr>
+            <td><input type="checkbox" value="list">Yes! put me on the list!</td>
+        </tr>
+     </table>
+     <input type="image" src="logo.jpg" width="150" height="150">
+</form>
+</body>
+</html>
